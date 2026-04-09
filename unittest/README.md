@@ -4,7 +4,7 @@ A minimal JUnit 5 example using the classic odd/even check.
 
 ## Structure
 
-```
+```sh
 unittest/
 ├── pom.xml
 └── src/
@@ -23,7 +23,7 @@ mvn test
 
 Expected output:
 
-```
+```text
 [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 [INFO] BUILD SUCCESS
 ```
