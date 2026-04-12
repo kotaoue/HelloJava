@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html">
+<h:head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>JSF HelloWorld</title>
+    <h:outputStylesheet library="css" name="style.css"/>
+</h:head>
+<h:body>
+    <div class="container">
+        <h1><h:outputText value="#{helloBean.message}"/></h1>
+        <div class="dice"><h:outputText value="#{helloBean.dice}"/></div>
+        <p class="label">今日のサイコロ</p>
+    </div>
+</h:body>
+</html>
