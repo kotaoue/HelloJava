@@ -1,15 +1,18 @@
 {
-    "version": "0.2",
-    "ignorePaths": [],
-    "dictionaryDefinitions": [],
-    "dictionaries": [],
-    "words": [
-        "Freemarker",
-        "ftlh",
-        "guice",
-        "javac",
-        "Thymeleaf"
-    ],
-    "ignoreWords": [],
-    "import": []
+        "version": "0.2",
+        "ignorePaths": [],
+        "dictionaryDefinitions": [],
+        "dictionaries": [],
+        "words": [
+                "Facelets",
+                "Freemarker",
+                "ftlh",
+                "guice",
+                "guice",
+                "javac",
+                "Mojarra",
+                "Thymeleaf"
+        ],
+        "ignoreWords": [],
+        "import": []
 }
