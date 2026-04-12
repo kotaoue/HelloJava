@@ -13,6 +13,6 @@ java HelloWorld
 
 Expected output:
 
-```
+```text
 Hello, World!
 ```
