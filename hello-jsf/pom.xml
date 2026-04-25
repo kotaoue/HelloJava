@@ -13,9 +13,9 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>jsf-helloworld</artifactId>
+    <artifactId>hello-jsf</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>jsf-helloworld</name>
+    <name>hello-jsf</name>
     <description>JavaServer Faces HelloWorld</description>
 
     <properties>

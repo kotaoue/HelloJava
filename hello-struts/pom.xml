@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>struts-helloworld</artifactId>
+    <artifactId>hello-struts</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>struts-helloworld</name>
+    <name>hello-struts</name>
     <description>Apache Struts 2 HelloWorld with JSP template and random dice</description>
 
     <properties>

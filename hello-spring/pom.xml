@@ -13,9 +13,9 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-helloworld</artifactId>
+    <artifactId>hello-spring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-helloworld</name>
+    <name>hello-spring</name>
     <description>Spring Framework HelloWorld with Thymeleaf</description>
 
     <properties>

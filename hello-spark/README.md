@@ -1,4 +1,4 @@
-# spark-helloworld
+# hello-spark
 
 Spark Framework の HelloWorld サンプルアプリ。  
 `localhost:4567` でページを表示し、Java から渡した "Hello, World!" の文字とランダムなサイコロ（⚀〜⚅）を Freemarker テンプレートで描画します。
@@ -6,7 +6,7 @@ Spark Framework の HelloWorld サンプルアプリ。
 ## 構成
 
 ```sh
-spark-helloworld/
+hello-spark/
 ├── pom.xml
 └── src/
     ├── main/
@@ -38,7 +38,7 @@ mvn -version
 ## 起動方法
 
 ```sh
-cd spark-helloworld
+cd hello-spark
 mvn compile exec:java -Dexec.mainClass=com.example.HelloWorld
 ```
 
@@ -46,7 +46,7 @@ mvn compile exec:java -Dexec.mainClass=com.example.HelloWorld
 
 ```sh
 mvn package
-java -jar target/spark-helloworld-0.0.1-SNAPSHOT.jar
+java -jar target/hello-spark-0.0.1-SNAPSHOT.jar
 ```
 
 起動後、ブラウザで以下の URL を開きます。
@@ -59,7 +59,7 @@ java -jar target/spark-helloworld-0.0.1-SNAPSHOT.jar
 ## テストの実行
 
 ```sh
-cd spark-helloworld
+cd hello-spark
 mvn test
 ```
 
