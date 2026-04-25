@@ -1,4 +1,4 @@
-# struts-helloworld
+# hello-struts
 
 Apache Struts 2 の HelloWorld サンプルアプリ。  
 `localhost:8080/index.action` でページを表示し、Java から渡した "Hello, World!" の文字とランダムなサイコロ（⚀〜⚅）を JSP テンプレートで描画します。
@@ -6,7 +6,7 @@ Apache Struts 2 の HelloWorld サンプルアプリ。
 ## 構成
 
 ```sh
-struts-helloworld/
+hello-struts/
 ├── pom.xml
 └── src/
     ├── main/
@@ -41,7 +41,7 @@ mvn -version
 ## 起動方法
 
 ```sh
-cd struts-helloworld
+cd hello-struts
 mvn jetty:run
 ```
 
@@ -55,7 +55,7 @@ mvn jetty:run
 ## テストの実行
 
 ```sh
-cd struts-helloworld
+cd hello-struts
 mvn test
 ```
 

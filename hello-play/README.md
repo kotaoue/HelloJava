@@ -1,4 +1,4 @@
-# play-helloworld
+# hello-play
 
 Play Framework の HelloWorld サンプルアプリ。  
 `localhost:9000` でページを表示し、Java から渡した "Hello, World!" の文字とランダムなサイコロ（⚀〜⚅）を Twirl テンプレートで描画します。
@@ -6,7 +6,7 @@ Play Framework の HelloWorld サンプルアプリ。
 ## 構成
 
 ```sh
-play-helloworld/
+hello-play/
 ├── build.sbt                       # SBT ビルド設定
 ├── project/
 │   ├── build.properties            # SBT バージョン
@@ -54,7 +54,7 @@ sbt --version
 ## 起動方法
 
 ```sh
-cd play-helloworld
+cd hello-play
 sbt run
 ```
 
@@ -68,7 +68,7 @@ sbt run
 ## テストの実行
 
 ```sh
-cd play-helloworld
+cd hello-play
 sbt test
 ```
 

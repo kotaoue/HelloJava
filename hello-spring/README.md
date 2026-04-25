@@ -1,4 +1,4 @@
-# spring-helloworld
+# hello-spring
 
 Spring Boot の HelloWorld サンプルアプリ。  
 `localhost:8080` でページを表示し、Java から渡した "Hello, World!" の文字とランダムなサイコロ（⚀〜⚅）を Thymeleaf テンプレートで描画します。
@@ -6,7 +6,7 @@ Spring Boot の HelloWorld サンプルアプリ。
 ## 構成
 
 ```sh
-spring-helloworld/
+hello-spring/
 ├── pom.xml
 └── src/
     ├── main/
@@ -40,7 +40,7 @@ mvn -version
 ## 起動方法
 
 ```sh
-cd spring-helloworld
+cd hello-spring
 mvn spring-boot:run
 ```
 
@@ -54,7 +54,7 @@ mvn spring-boot:run
 ## テストの実行
 
 ```sh
-cd spring-helloworld
+cd hello-spring
 mvn test
 ```
 

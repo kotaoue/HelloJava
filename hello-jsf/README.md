@@ -1,4 +1,4 @@
-# jsf-helloworld
+# hello-jsf
 
 JavaServer Faces (JSF) の HelloWorld サンプルアプリ。  
 `localhost:8080` でページを表示し、Java から渡した "Hello, World!" の文字とランダムなサイコロ（⚀〜⚅）を Facelets テンプレートで描画します。
@@ -6,7 +6,7 @@ JavaServer Faces (JSF) の HelloWorld サンプルアプリ。
 ## 構成
 
 ```sh
-jsf-helloworld/
+hello-jsf/
 ├── pom.xml
 └── src/
     ├── main/
@@ -50,7 +50,7 @@ mvn -version
 ## 起動方法
 
 ```sh
-cd jsf-helloworld
+cd hello-jsf
 mvn spring-boot:run
 ```
 
@@ -64,7 +64,7 @@ mvn spring-boot:run
 ## テストの実行
 
 ```sh
-cd jsf-helloworld
+cd hello-jsf
 mvn test
 ```
 

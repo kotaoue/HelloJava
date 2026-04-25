@@ -1,4 +1,4 @@
-name := "play-helloworld"
+name := "hello-play"
 version := "1.0-SNAPSHOT"
 scalaVersion := "2.13.15"
 

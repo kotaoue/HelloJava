@@ -6,9 +6,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spark-helloworld</artifactId>
+    <artifactId>hello-spark</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spark-helloworld</name>
+    <name>hello-spark</name>
     <description>Spark Framework HelloWorld</description>
 
     <properties>
