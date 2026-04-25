@@ -3,6 +3,15 @@
 Play Framework の HelloWorld サンプルアプリ。  
 `localhost:9000` でページを表示し、Java から渡した "Hello, World!" の文字とランダムなサイコロ（⚀〜⚅）を Twirl テンプレートで描画します。
 
+## Features
+
+* **Reactive** — Built on Akka; non-blocking I/O handles high concurrency with low resource usage
+* **Hot reload** — Automatically reloads changed source files without restarting the server
+* **Type-safe routes** — Route definitions are compiled and type-checked at build time
+* **Twirl templates** — Scala-based HTML template engine with compile-time type safety
+* **Built-in testing** — First-class support for unit, functional, and integration tests
+* **RESTful by design** — Convention-based URL routing and JSON handling optimized for REST APIs
+
 ## 構成
 
 ```sh

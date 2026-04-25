@@ -3,6 +3,15 @@
 Spark Framework の HelloWorld サンプルアプリ。  
 `localhost:4567` でページを表示し、Java から渡した "Hello, World!" の文字とランダムなサイコロ（⚀〜⚅）を Freemarker テンプレートで描画します。
 
+## Features
+
+* **Micro-framework** — Lightweight and unopinionated; minimal API surface lets you focus on your app logic
+* **Expressive routing** — Define HTTP routes with concise Java lambda expressions
+* **Embedded server** — Ships with an embedded Jetty server; no external servlet container needed
+* **Template support** — Integrates with Freemarker, Velocity, Mustache, and other template engines
+* **Static files** — Built-in support for serving static assets from the classpath or an external folder
+* **Minimal configuration** — A working web app in just a few lines of code; no XML required
+
 ## 構成
 
 ```sh

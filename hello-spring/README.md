@@ -3,6 +3,15 @@
 Spring Boot の HelloWorld サンプルアプリ。  
 `localhost:8080` でページを表示し、Java から渡した "Hello, World!" の文字とランダムなサイコロ（⚀〜⚅）を Thymeleaf テンプレートで描画します。
 
+## Features
+
+* **Auto-configuration** — Automatically configures Spring components based on classpath dependencies
+* **Embedded server** — Ships with an embedded Tomcat server; run the app as a plain JAR
+* **Dependency injection** — Built-in IoC container manages component lifecycles via annotations
+* **Thymeleaf integration** — Natural HTML templates processed server-side with full Spring expression support
+* **Opinionated defaults** — Production-ready configuration with sensible out-of-the-box settings
+* **Extensive ecosystem** — Access to the full Spring ecosystem (Security, Data, Cloud, Actuator, etc.)
+
 ## 構成
 
 ```sh

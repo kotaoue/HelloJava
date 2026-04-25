@@ -3,6 +3,15 @@
 Apache Struts 2 の HelloWorld サンプルアプリ。  
 `localhost:8080/index.action` でページを表示し、Java から渡した "Hello, World!" の文字とランダムなサイコロ（⚀〜⚅）を JSP テンプレートで描画します。
 
+## Features
+
+* **MVC architecture** — Clear separation of model, view, and controller layers
+* **Convention-over-configuration** — Annotation-based action mapping reduces XML boilerplate
+* **Interceptor stack** — AOP-style pre/post request processing for cross-cutting concerns
+* **OGNL expressions** — Object-Graph Navigation Language enables powerful data binding in views
+* **Plugin ecosystem** — Rich plugin support for Spring, REST, Tiles, and more
+* **Flexible views** — Supports JSP, Freemarker, and Velocity as view technologies
+
 ## 構成
 
 ```sh

@@ -3,6 +3,15 @@
 JavaServer Faces (JSF) の HelloWorld サンプルアプリ。  
 `localhost:8080` でページを表示し、Java から渡した "Hello, World!" の文字とランダムなサイコロ（⚀〜⚅）を Facelets テンプレートで描画します。
 
+## Features
+
+* **Component-based UI** — Rich set of reusable UI components via Jakarta Faces (Mojarra)
+* **Facelets** — XHTML-based view technology with component composition and templating
+* **CDI integration** — Managed beans declared with `@Named` and `@RequestScoped` via Weld
+* **Spring Boot integration** — Runs on an embedded Tomcat through the JoinFaces library
+* **Event-driven lifecycle** — Component and application lifecycle events for fine-grained control
+* **Standard specification** — Part of Jakarta EE; broad vendor support and long-term stability
+
 ## 構成
 
 ```sh
